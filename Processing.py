@@ -5,7 +5,7 @@ import opendatasets as od
 od.download("https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data")
 ##############################################################################################
 #reading data
-df = pd.read_csv('vehicle-dataset-from-cardekho\\car data.csv')
+df = pd.read_csv('vehicle-dataset-from-cardekho\car data.csv')
 df.head()
 
 #Preprocessing

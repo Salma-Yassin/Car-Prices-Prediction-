@@ -2,3 +2,4 @@ pandas
 numpy
 opendatasets
 matplotlib
+scikit-learn

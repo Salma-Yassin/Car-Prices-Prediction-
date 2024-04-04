@@ -19,13 +19,15 @@ df.nunique()
 import pandas as pd
 import matplotlib.pyplot as plt
 # Plotting
+import pandas as pd
+import matplotlib.pyplot as plt
+# Plotting
 plt.figure(figsize=(8, 6))
-plt.plot(df['Selling_Price'], marker='o', linestyle='-')
-plt.title('Price Visualization')
-plt.xlabel('Index')
-plt.ylabel('Price')
+plt.scatter(df['Present_Price'], df['Selling_Price'], color='blue', alpha=0.5)
+plt.title('Selling Price vs Present Price')
+plt.xlabel('Present Price')
+plt.ylabel('Selling Price')
 plt.grid(True)
-plt.savefig('price_visualization.png')
 plt.show()
 
 ########################################################

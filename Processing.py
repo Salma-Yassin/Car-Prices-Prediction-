@@ -14,6 +14,19 @@ df.describe()
 df.drop_duplicates()
 df.isnull().sum()
 df.nunique()
+########################################################
+##############Visualization#####################
+import pandas as pd
+import matplotlib.pyplot as plt
+# Plotting
+plt.figure(figsize=(8, 6))
+plt.plot(df['Selling_Price'], marker='o', linestyle='-')
+plt.title('Price Visualization')
+plt.xlabel('Index')
+plt.ylabel('Price')
+plt.grid(True)
+plt.savefig('price_visualization.png')
+plt.show()
 
 ########################################################
 from sklearn.model_selection import train_test_split
@@ -70,7 +83,7 @@ print(f"r2_score : {r2_score_rf}")
 print(f"max_error : {max_error_rf}")
 print(f"mean_squared_error : {mse_rf}")
 
-    
+
 
 
 

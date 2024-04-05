@@ -7,6 +7,6 @@
 `pip install -r requirements.txt`
 
 ### To pull and run image from dockerhub 
-`docker pull nagwa396/myrepository:latest`
+`docker pull nagwa396/car_prices_prediction:latest`
 
-`docker run nagwa396/myrepository:latest`
+`docker run nagwa396/car_prices_prediction:latest`
